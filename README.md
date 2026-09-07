@@ -1,6 +1,6 @@
 # Análisis Exploratorio de las Interrupciones del Servicio de Agua - SUNASS
 
-## 📊 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto desarrolla un **Análisis Exploratorio de Datos (EDA)** del **Registro de Interrupciones del Servicio de Agua**, utilizando información registrada por la **Superintendencia Nacional de Servicios de Saneamiento (SUNASS)**.
 
@@ -10,7 +10,7 @@ Mediante técnicas de estadística descriptiva y visualización de datos se busc
 
 ---
 
-## 👨‍🎓 Autor
+##  Autor
 
 **Frank Gerson Lisonde Chocca**
 
@@ -19,7 +19,7 @@ Mediante técnicas de estadística descriptiva y visualización de datos se busc
 
 ---
 
-# 🎯 Objetivos del Proyecto
+# Objetivos del Proyecto
 
 ## Objetivo General
 
@@ -39,7 +39,7 @@ Realizar un **Análisis Exploratorio de Datos (EDA)** sobre las interrupciones d
 
 ---
 
-# ❓ Pregunta de Investigación
+#  Pregunta de Investigación
 
 > **¿Cuáles son las principales características, causas, duración y patrones temporales y geográficos de las interrupciones del servicio de agua registradas por SUNASS?**
 
@@ -49,7 +49,7 @@ Realizar un **Análisis Exploratorio de Datos (EDA)** sobre las interrupciones d
 
 ---
 
-# 🗂️ Base de Datos
+#  Base de Datos
 
 La base de datos corresponde al **Registro de Interrupciones del Servicio de Agua de SUNASS**.
 
@@ -81,7 +81,7 @@ La base original contiene:
 
 ---
 
-# 🧹 Limpieza y Preparación de los Datos
+#  Limpieza y Preparación de los Datos
 
 Para el análisis se realizaron las siguientes actividades:
 
@@ -104,7 +104,7 @@ Para el análisis se realizaron las siguientes actividades:
 
 ---
 
-# 📈 Principales Hallazgos del EDA
+#  Principales Hallazgos del EDA
 
 ## 1. Tipo de Interrupción
 
@@ -122,7 +122,7 @@ Esto significa que aproximadamente **3 de cada 4 interrupciones son imprevistas*
 
 ---
 
-# 💧 2. Tipo de Servicio
+#  2. Tipo de Servicio
 
 | Servicio | Frecuencia | Porcentaje |
 |---|---:|---:|
@@ -163,7 +163,7 @@ Estos resultados muestran que los problemas relacionados con la infraestructura 
 
 ---
 
-# 🏢 4. Empresas Prestadoras con Mayor Número de Interrupciones
+#  4. Empresas Prestadoras con Mayor Número de Interrupciones
 
 | EPS | Frecuencia | Porcentaje |
 |---|---:|---:|
@@ -186,7 +186,7 @@ Esta concentración debe interpretarse considerando también el tamaño y la cob
 
 ---
 
-# 🗺️ 5. Distribución por Departamento
+#  5. Distribución por Departamento
 
 | Departamento | Frecuencia | Porcentaje |
 |---|---:|---:|
@@ -211,7 +211,7 @@ Estos resultados deben analizarse considerando el número de conexiones y usuari
 
 ---
 
-# ⏱️ 6. Duración de las Interrupciones
+#  6. Duración de las Interrupciones
 
 | Indicador | Resultado |
 |---|---:|
@@ -236,7 +236,7 @@ Por esta razón, la **mediana** constituye una medida más representativa de la 
 
 ---
 
-# 👥 7. Conexiones Domiciliarias Afectadas
+#  7. Conexiones Domiciliarias Afectadas
 
 | Indicador | Resultado |
 |---|---:|
@@ -256,7 +256,7 @@ Existe una gran diferencia entre la **media de 21,906 conexiones** y la **median
 
 ---
 
-# 🏠 8. Unidades de Uso Afectadas
+#  8. Unidades de Uso Afectadas
 
 | Indicador | Resultado |
 |---|---:|
@@ -276,7 +276,7 @@ La diferencia entre promedio y mediana indica que unos pocos registros presentan
 
 ---
 
-# ⚠️ 9. Valores Faltantes
+#  9. Valores Faltantes
 
 | Variable | Valores faltantes |
 |---|---:|
@@ -294,7 +294,7 @@ Estos valores deben considerarse al realizar análisis posteriores, debido a que
 
 ---
 
-# 📅 Análisis Temporal
+#  Análisis Temporal
 
 Se realizó un análisis temporal para identificar patrones en:
 
@@ -307,7 +307,7 @@ El análisis temporal permite identificar posibles períodos de mayor concentrac
 
 ---
 
-# 🌎 Análisis Geográfico
+# Análisis Geográfico
 
 El análisis geográfico permitió identificar:
 
@@ -320,7 +320,7 @@ Los resultados muestran una importante concentración de registros en **Lima**, 
 
 ---
 
-# 📊 Análisis Bivariado
+#  Análisis Bivariado
 
 ## Duración según Tipo de Interrupción
 
@@ -336,7 +336,7 @@ Esto permite identificar qué tipos de eventos están asociados con una mayor ca
 
 ---
 
-# 📸 Visualizaciones
+#  Visualizaciones
 
 El proyecto contiene diferentes visualizaciones desarrolladas mediante `ggplot2`:
 
@@ -366,7 +366,7 @@ El proyecto contiene diferentes visualizaciones desarrolladas mediante `ggplot2`
 
 ---
 
-# 💻 Tecnologías Utilizadas
+#  Tecnologías Utilizadas
 
 ## Lenguaje y Entorno
 
@@ -388,7 +388,7 @@ El proyecto contiene diferentes visualizaciones desarrolladas mediante `ggplot2`
 
 ---
 
-# 🔄 Flujo del Proyecto
+#  Flujo del Proyecto
 
 ```text
 Base de Datos SUNASS
